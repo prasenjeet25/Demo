@@ -8,13 +8,22 @@ const About = () => {
 
         <div className="about-section">
           <h2>Welcome to Sunbeam Institute of Information Technology</h2>
-          <p>
-            Sunbeam Institute of Information Technology is a premier IT training
-            institute located in the heart of Pune’s IT hub, Hinjawadi Phase 2.
-            It is widely known for delivering high-quality, industry-oriented
-            training programs under C-DAC, helping students build strong
-            foundations for successful software careers.
-          </p>
+         <p>
+    Sunbeam Institute of Information Technology is a premier IT training
+   institute located in the heart of Pune’s IT hub, Hinjawadi Phase 2.
+  It is widely known for delivering high-quality, industry-oriented
+  training programs under C-DAC, helping students build strong
+  foundations for successful software careers.  
+  The institute offers a wide range of professional courses in areas such
+  as Full Stack Development, Java, .NET, Python, Data Science, Artificial
+  Intelligence, and Machine Learning. Sunbeam focuses on practical
+  learning through hands-on projects, experienced faculty, and a
+  structured curriculum aligned with current industry standards.
+  Additionally, the institute provides placement assistance, soft skills
+  training, and guidance to help students become job-ready and
+  confidently enter the IT industry.
+        </p>
+
         </div>
 
         <div className="about-section">
