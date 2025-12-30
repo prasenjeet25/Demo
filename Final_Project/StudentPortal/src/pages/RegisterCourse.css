@@ -1,0 +1,153 @@
+.register-course-container {
+  min-height: calc(100vh - 80px);
+  background: #ffffff;
+  padding: 40px 20px;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 30px 0;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.course-summary {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.summary-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}
+
+.summary-table td:first-child {
+  width: 40%;
+  color: #555;
+}
+
+.summary-table td:last-child {
+  font-weight: 500;
+  color: #333;
+}
+
+.summary-table tr:last-child td {
+  border-bottom: none;
+}
+
+.register-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background: #5568d3;
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  padding: 15px;
+  background: #fee;
+  color: #e74c3c;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.success-message {
+  padding: 15px;
+  background: #d4edda;
+  color: #155724;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #c3e6cb;
+  font-weight: 500;
+}
+
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+  font-size: 18px;
+}
+
+.back-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: #5568d3;
+}
+
