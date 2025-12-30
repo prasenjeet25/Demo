@@ -13,7 +13,7 @@ const AddCourse = () => {
     endDate: '',
     videoExpireDays: ''
   });
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] =
   const [error, setError] = useState('');
 
   const handleChange = (e) => {
